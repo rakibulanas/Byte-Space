@@ -55,9 +55,14 @@ export default function Hero() {
 					business with our wide range of courses.
 				</p>
 
-				<form className="mx-auto mt-8 flex max-w-lg items-center rounded-full bg-white p-1.5 pl-5">
+				<form
+					action="/courses"
+					method="get"
+					className="mx-auto mt-8 flex max-w-lg items-center rounded-full bg-white p-1.5 pl-5"
+				>
 					<input
 						type="text"
+						name="q"
 						placeholder="Course, topic, creator"
 						className="flex-1 bg-transparent text-sm text-neutral-950 outline-none placeholder:text-neutral-400"
 					/>

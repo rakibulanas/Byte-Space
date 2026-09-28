@@ -29,11 +29,11 @@ export default function Footer() {
 							Stay Up to date with our latest features and releases by joining
 							our newsletter.
 						</p>
-						<form className="mt-4 flex items-center gap-3">
+						<form className="mt-4 flex max-w-sm items-center gap-3">
 							<input
 								type="email"
 								placeholder="Enter your email"
-								className="w-64 rounded-full border border-neutral-200 px-5 py-3 text-sm text-neutral-950 outline-none placeholder:text-neutral-400"
+								className="min-w-0 flex-1 rounded-full border border-neutral-200 px-5 py-3 text-sm text-neutral-950 outline-none placeholder:text-neutral-400"
 							/>
 							<button
 								type="submit"
